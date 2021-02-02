@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empresa de Asesorías</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header id="seccion">
+        <h2> LISTADO DE VISITAS</h2>
+        <div class="content-menu">
+        <input type="checkbox" id="check">
+        <label class="icon-menu" for="check"><img src="iconos/icono-menu.png" alt="" class="icon-menu"
+                for="check"></label>
+
+        <nav class="menu">
+            <ul>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="login.html">Ingreso</a></li>
+                <li><a href="crearusuario.html">Crear Usuario</a></li>
+                <li><a href="crearcapacitacion.html">Crear Capacitaciones</a></li>
+                <li><a href="listarcapacitaciones.html">Listar Capacitaciones</a></li>
+                <li><a href="administrarasistentes.html">Asistentes Capacitaciones</a></li>
+                <li><a href="listadovisitas.html">Listado Visitas</a></li>
+                <li><a href="listadopago.html">Listado Pago</a></li>
+                <li><a href="listadoasesorias.html">Listado Asesorías</a></li>
+                <li><a href="listadoaccidentes.html">Listado Accidentes</a></li>
+                <li><a href="reportes.html">Reportes</a></li>
+
+            </ul>
+        </nav>
+        </div>
+    </header>
+
+    <fieldset class="cel- agrupar-t agrupar-e">
+        <table class="cel- tablaadm-t tablaadm-e">
+            <tr class="negrita">
+                <td>Id Visita</td>
+                <td>Fecha</td>
+                <td>hora</td>
+                <td>Rut del Cliente</td>
+                <td>Nombre</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>10/12/2020</td>
+                <td>12:40</td>
+                <td>1111111-1</td>
+                <td>Armando Paredes</td>
+                <td>
+                    <input type="button" value="Chequeo" name="cheq" id="chek1" onclick="chequeo()"></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>10/12/2020</td>
+                <td>12:40</td>
+                <td>222222-2</td>
+                <td>Elsa Pato</td>
+                <td>
+                    <input type="button" value="Chequeo" name="cheq" id="chek2" onclick="chequeo()"></td>
+
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>10/12/2020</td>
+                <td>12:40</td>
+                <td>3333333-3</td>
+                <td>Rogelio Rojas</td>
+                <td>
+                    <input type="button" value="Chequeo" name="cheq" id="chek3" onclick="chequeo()"></td>
+
+            </tr>
+        </table>
+
+    </fieldset>
+    <footer id="pie">
+        <blockquote><a href="index.html">Volver a la página de Inicio</a></blockquote>
+        Derechos Reservados G3 &copy; 2020
+      </footer>
+    
+
+
+</body>
+
+</html>

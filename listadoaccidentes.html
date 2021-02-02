@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listado Accidentes</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <header id="seccion">
+        <h2>FORMULARIO INGRESO DE ACCIDENTE</h2>
+        <div class="content-menu">
+        <input type="checkbox" id="check">
+        <label class="icon-menu" for="check"><img src="iconos/icono-menu.png" alt="" class="icon-menu"
+                for="check"></label>
+
+        <nav class="menu">
+            <ul>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="login.html">Ingreso</a></li>
+                <li><a href="crearusuario.html">Crear Usuario</a></li>
+                <li><a href="crearcapacitacion.html">Crear Capacitaciones</a></li>
+                <li><a href="listarcapacitaciones.html">Listar Capacitaciones</a></li>
+                <li><a href="administrarasistentes.html">Asistentes Capacitaciones</a></li>
+                <li><a href="listadovisitas.html">Listado Visitas</a></li>
+                <li><a href="listadopago.html">Listado Pago</a></li>
+                <li><a href="listadoasesorias.html">Listado Asesorías</a></li>
+                <li><a href="listadoaccidentes.html">Listado Accidentes</a></li>
+                <li><a href="reportes.html">Reportes</a></li>
+
+            </ul>
+        </nav>
+        </div>
+    </header>
+    
+    <form class="cmxform" id="accForm" method="get" action="#">
+        <fieldset class="cel- agrupar-t agrupar-e">
+            <table class="cel- tablaadm-t tablaadm-e">
+
+                <tr>
+                    <td>ID del Accidente</td>
+                    <td><input type="text" name="ID_Accidente" id="ID_Accidente" /> </td>
+                </tr>
+
+                <tr>
+                    <td>Fecha del Accidente</td>
+                    <td><input type="date" name="fecha" id="accfecha" /> </td>
+                </tr>
+
+                <tr>
+                    <td>Hora del Accidente</td>
+                    <td><input type="time" name="hora" id="acchora" /> </td>
+                </tr>
+
+                <tr>
+                    <td>Lugar del Accidente</td>
+                    <td><input type="text" name="lugar" id="acclugar" /> </td>
+                </tr>
+
+                <tr>
+                    <td>Origen</td>
+                    <td><input type="text" name="origen" id="accorigen" /> </td>
+                </tr>
+
+                <tr>
+                    <td><label for="cliente">Cliente</label></td>
+                    <td><select id="cliente" name="cliente">
+                            <option value="default">seleccione...</option>
+                            &nbsp<option value="TrapeciosPitillaSA">Trapecios Pitilla SA.</option>
+                            &nbsp<option value="VidriosTiritonLtda">Vidrios Tiritón Ltda.</option>
+                            &nbsp<option value="CuchillosElEstoqueSA">Cuchillos El Estoque SA.</option>
+                            &nbsp<option value="BusesCrashDummieSA">Buses Crash-Dummie SA.</option>
+                            &nbsp<option value="AndamiosPataCojaSPA">Andamios PataCoja SPA.</option>
+                        </select></td>
+                </tr>
+
+                <tr>
+                    <td>Consecuencias</td>
+                    <td><textarea name="consecuencias" id="accconsecuencias" placeholder="">
+                    </textarea></td>
+                </tr>
+
+                <tr>
+                    <td><input type="submit" id="validaracc" value="Validar Datos"></td>
+                </tr>
+
+            </table>
+        </fieldset>
+    </form>
+    <footer id="pie">
+        <blockquote><a href="index.html">Volver a la página de Inicio</a></blockquote>
+        Derechos Reservados G3 &copy; 2020
+      </footer>
+
+</body>
+
+</html>

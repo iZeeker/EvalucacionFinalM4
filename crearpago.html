@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Crear Pago</title>
+
+  <link rel="stylesheet" href="estilo.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="script.js"></script>
+</head>
+
+<body onload="fechaActual();">
+  <header id="seccion">
+    <h2> CREAR PAGO</h2>
+    <div class="content-menu">
+    <input type="checkbox" id="check">
+    <label class="icon-menu" for="check"><img src="iconos/icono-menu.png" alt="" class="icon-menu" for="check"></label>
+
+    <nav class="menu">
+      <ul>
+        <li><a href="contacto.html">Contacto</a></li>
+        <li><a href="login.html">Ingreso</a></li>
+        <li><a href="crearusuario.html">Crear Usuario</a></li>
+        <li><a href="crearcapacitacion.html">Crear Capacitaciones</a></li>
+        <li><a href="listarcapacitaciones.html">Listar Capacitaciones</a></li>
+        <li><a href="administrarasistentes.html">Asistentes Capacitaciones</a></li>
+        <li><a href="listadovisitas.html">Listado Visitas</a></li>
+        <li><a href="listadopago.html">Listado Pago</a></li>
+        <li><a href="listadoasesorias.html">Listado Asesorías</a></li>
+        <li><a href="listadoaccidentes.html">Listado Accidentes</a></li>
+        <li><a href="reportes.html">Reportes</a></li>
+
+      </ul>
+    </nav>
+    </div>
+  </header>
+  <form>
+    <fieldset class="cel- agrupar-t agrupar-e">
+
+      <table class="cel- tablas-t tablas-e">
+
+        <tr>
+          <td>Monto de Pago</td>
+          <td>
+            <input type="number" value="" id="monto" />
+          </td>
+        </tr>
+
+        <tr>
+          <td>Mes</td>
+          <td><select name="mes" id="mes">
+              <option>seleccione una opción</option>
+
+              <script type="text/javascript">
+                RangoMesAnio(1, 12);
+              </script>
+            </select></td>
+        </tr>
+        <tr>
+          <td>Año</td>
+          <td><select name="anio" id="anio">
+              <option>seleccione una opción</option>
+              <script type="text/javascript">
+                RangoMesAnio(2010, 41);
+              </script>
+            </select></td>
+        </tr>
+        <tr>
+          <td>RUT del cliente</td>
+          <td>
+            <input type="number" name="rutcliente" value="" id="rutcliente" />
+          </td>
+        </tr>
+
+        <tr>
+          <td>Fecha actual</td>
+
+          <td><input id="fecha" /></td>
+
+        </tr>
+        <tr>
+          <td colspan="2"><input type="button" id="ingresadatos" value="Ingresar datos" onclick="ingresaDatos()"></td>
+        </tr>
+
+      </table>
+    </fieldset>
+  </form>
+  <footer id="pie">
+    <blockquote><a href="index.html">Volver a la página de Inicio</a></blockquote>
+    Derechos Reservados G3 &copy; 2020
+  </footer>
+</body>
+
+</html>

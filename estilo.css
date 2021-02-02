@@ -1,0 +1,503 @@
+body{
+    background-color: #008d7a;
+
+}
+
+th {
+    color: rgb(0, 165, 165); 
+    text-shadow: black 0.1em 0.1em 0.2em
+
+}
+
+.actdis{
+    display:none;
+}
+
+.chart-container {
+    width: 200px;
+    height: 200px
+}
+
+.estilo1 {
+    background-color:rgb(255, 164, 164) ;
+    border-color: red;
+}
+
+.estilo2 {
+    background-color:rgb(164, 165, 255) ;
+    border-color: rgb(0, 4, 255);
+}
+
+.estilo3 {
+    background-color:rgb(164, 255, 187) ;
+    border-color: rgb(0, 255, 55);
+}
+.error {
+    background-color: rgb(255, 164, 164);
+    border-color: red;
+}
+
+.validado {
+    background-color: #b6f3ff;
+    border-color: #009013
+}
+
+h1 {
+    color: rgb(241, 241, 241);
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(0, 165, 165); 
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    text-align: center;
+}
+
+h3 {
+    color: rgb(0, 165, 165); 
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 20px;
+}
+
+p {
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+}
+
+th {
+    color: white;
+    background-color: #022D36;
+}
+
+td {
+    color: #022D36;
+    text-shadow: -1px -1px 1px rgb(207, 207, 226);
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 1px solid #999999;
+    align-content: center;
+    color: white; 
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+
+table {
+    align-items: center;
+    width: auto;
+    margin: 0 auto;
+}
+
+
+input {
+    margin: 10px;
+}
+
+canvas {
+    background-color: rgba(19, 123, 241, 0.2);
+}
+
+fieldset {
+    background-color: rgb(65, 0, 61, 0.25);
+}
+
+legend {
+    align-items: center;
+    margin-right: auto;
+
+}
+
+.negrita {
+    font-weight: bold
+}
+
+a {
+    color: #82EEFD;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#agrupar {
+
+    width: 100%;
+    height: 100%;
+    margin: 15px auto;
+    text-align: left;
+}
+
+.seccion {
+    background-color: #022D36;
+    border: 1px solid #999999;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+
+}
+
+
+
+#aside {
+    background-color: #022D36;
+    display: inline-block;
+    margin: 15px auto;
+    width: 100%;
+    border: 1px solid #999999;
+}
+
+#pie {
+    background-color: #022D36;
+    color: #82EEFD;
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #999999;
+}
+
+.lista {
+    background-color: #022D36;
+    color: #82EEFD;
+    width: 0 auto;
+
+}
+
+
+
+#menu ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+/*#menu li {
+    text-align: center;
+    flex-grow: 1;
+}*/
+
+#menu li:hover {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+table.dataTable tbody th, table.dataTable tbody td {
+    background-color:rgb(1, 56, 78);
+    }
+    table.dataTable {
+        width: 50%;
+        margin: 0 auto;
+        clear: both;
+        border-collapse: separate;
+        border-spacing: 0;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    
+    header {
+        width: 100%;
+        min-height: 130px;
+        height: 150px;
+        padding: 20px;
+        background-color: #022D36;
+        text-align: center;
+        margin-bottom: auto;
+    }
+    
+    main h2 {
+        font-size: 30px;
+        margin-top: 10px;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    
+    main p {
+        margin-top: 10px;
+        font-size: 18px;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    header:hover {
+    
+        -webkit-transition: all 300ms;
+        transition: all 300ms;
+    }
+    
+    .content-menu {
+        width: 90%;
+        max-width: 1000px;
+        margin: auto;
+    }
+    
+    .content-menu img {
+        width: 100px;
+        display: block;
+        margin: auto;
+        padding-top: 10px;
+    }
+    
+    
+    #check {
+        display: none;
+    }
+    
+    .seccion {
+        background-color: #022D36;
+        border: 1px solid #999999;
+        width: 100%;
+        height: 150px;
+        padding: 20px;
+    
+    }
+    
+    .menu {
+        width: 100%;
+        margin-top: 20px;
+        z-index:2;
+        position: relative;
+
+    }
+    
+    li {
+        display: list-item;
+        text-align: -webkit-match-parent;
+    }
+    
+    .menu ul {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+    
+    .menu ul li {
+        list-style: none;
+    }
+    
+    .menu ul li a {
+        padding: 12px;
+        text-decoration: none;
+        color: white;
+        font: verdana, sans-serif;
+        flex-grow: 1;
+    }
+    
+    .menu ul li a:hover {
+        background: rgba(0, 0, 0, 0.3);
+        flex-grow: 1;
+    }
+    
+    
+    .icon-menu img {
+        display: none;
+    }
+    
+   
+    
+    a {
+        color: #82EEFD;
+        font-family: Arial, Helvetica, sans-serif;
+    
+    }
+
+/*estilos celulares*/
+    [class*="cel-"] {
+        width: 100%;
+        padding: 10px 0px;
+        margin-top: 10px;
+        font-size: 14px;
+        z-index:1;
+
+
+    }
+    .cel-2{
+        width: 100%;
+            background-color: #022D36;
+            margin: 0px;
+            padding: 10px 0px;
+            display: inline-block;  
+            font-size: 18px;
+    }
+    .cel-3{
+        display: inline-block;
+        list-style: none;
+        padding: 0px;
+        font: bold 14px verdana, sans-serif;
+        width: 100%;
+        float: none;
+    }
+    
+/*estilos para tablets*/
+    @media only screen and (min-width:600px) {
+
+        .texto-t{
+            font-size: 20px;
+        }
+        .agrupar-t{
+            max-width: 100%;
+            text-align: left;
+            margin-top: 10px;
+
+        }
+        .tablas-t{
+            width: 500px;
+            font-size: 20px;
+        }
+        .tablaadm-t{
+            width: 800px;
+            font-size: 20px;
+        }
+        .tablausr-t{
+            width: 650px;
+            font-size: 20px;
+        }
+        .subtitulo-t{
+            width: 100%;
+            background-color: #022D36;
+            margin: 0px;
+            display: inline-block;  
+            font-size: 20px;
+        }
+        .menuli-t{
+            display: inline-block;
+            list-style: none;
+            padding: 0px;
+            font: bold 14px verdana, sans-serif;
+            width: 100%;
+            float: none;
+        }
+        .menuul-t {
+            width: 40%;
+        }
+        body {
+            background-image: url(https://coordinatecnica.com/wp-content/uploads/2014/10/fondo-1-1920.jpg);
+        }
+        
+    }
+/*estilos de escritorio*/ 
+    @media only screen and (min-width:1000px) {
+        .texto-e{
+            font-size: 24px;
+        }
+        .agrupar-e{
+            width: 70%;
+            text-align: left;
+            margin-right:auto;
+            margin-left:auto;
+            font-size: 24px;
+
+        }
+        .tablas-e{
+            width: 600px;
+            font-size: 24px;
+        }
+        .tablaadm-e{
+            width: 1000px;
+            font-size: 24px;
+        }
+        .tablausr-e{
+            width: 800px;
+            font-size: 24px;
+        }
+        .subtitulo-e{width: 960px;}
+        .menuli-e{
+            display: inline-block;
+            list-style: none;
+            padding: 0px;
+            font: bold 14px verdana, sans-serif;
+            width: 100%;
+            float: none;
+        }
+        .menuul-e {
+            width: auto;
+        }
+        body {
+            background-image: url(https://coordinatecnica.com/wp-content/uploads/2014/10/fondo-1-1920.jpg);
+        }
+    }
+    @media screen and (max-width: 600px) {
+
+        header {
+            top: 0;
+            height: 60px;
+        }
+    
+        .icon-menu img {
+            display: none;
+        }
+    
+        .icon-menu img {
+            display: block;
+            position: fixed;
+            right: 10px;
+            top: 10px;
+            padding: 5px;
+            font-size: 5px;
+            -webkit-transition: all 300ms;
+            transition: all 300ms;
+            width: 30px;
+            height: 30px;
+            background-color: #82EEFD;
+            
+    
+        }
+    
+        .icon-menu:hover img {
+            background: rgba(0, 0, 0, 0.3);
+            color: white;
+            border-radius: 5px;
+            -webkit-transition: all 300ms;
+            transition: all 300ms;
+            cursor: pointer;
+        }
+    
+    
+        .menu {
+            width: 400px;
+            position: absolute;
+            background: white;
+            height: 100vh;
+            left: -120%;
+            top: 40px;
+            -webkit-transition: all 100ms;
+            transition: all 100ms;
+    
+        }
+    
+        .menu ul {
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+        }
+    
+        .menu ul li {
+            padding: 5px;
+        }
+    
+        .menu ul li a {
+            color: black;
+            display: block;
+    
+        }
+    
+        #check:checked~.menu {
+            left: 0px;
+            -webkit-transition: all 300ms;
+            transition: all 300ms;
+        }
+    }

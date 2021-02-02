@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empresa de Asesorías</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header id="seccion">
+        <h2>Checklist</h2>
+        <div class="content-menu">
+        <input type="checkbox" id="check">
+        <label class="icon-menu" for="check"><img src="iconos/icono-menu.png" alt="" class="icon-menu"
+                for="check"></label>
+
+        <nav class="menu">
+            <ul>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="login.html">Ingreso</a></li>
+                <li><a href="crearusuario.html">Crear Usuario</a></li>
+                <li><a href="crearcapacitacion.html">Crear Capacitaciones</a></li>
+                <li><a href="listarcapacitaciones.html">Listar Capacitaciones</a></li>
+                <li><a href="administrarasistentes.html">Asistentes Capacitaciones</a></li>
+                <li><a href="listadovisitas.html">Listado Visitas</a></li>
+                <li><a href="listadopago.html">Listado Pago</a></li>
+                <li><a href="listadoasesorias.html">Listado Asesorías</a></li>
+                <li><a href="listadoaccidentes.html">Listado Accidentes</a></li>
+                <li><a href="reportes.html">Reportes</a></li>
+
+            </ul>
+        </nav>
+        </div>
+    </header>
+
+    <form>
+        <fieldset class="cel- agrupar-t agrupar-e">
+            <table class="tablaadm-t tablaadm-e">
+
+                <tr class="negrita">
+                    <td>Id Chequeo</td>
+                    <td>Nombre</td>
+                    <td>Seleccione chequeo</td>
+
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Servicios higiénicos</td>
+                    <td><input type="checkbox" name="checkbox" value="Servicios higiénicos" id="chek1" /></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Sala de vestir</td>
+                    <td><input type="checkbox" name="checkbox" value="Sala de vestir" id="chek2" /></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Comedores</td>
+                    <td><input type="checkbox" name="checkbox" value="Comedores" id="chek3" /></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Escaleras</td>
+                    <td><input type="checkbox" name="checkbox" value="Comedores" id="chek4" /></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Señalización</td>
+                    <td><input type="checkbox" name="checkbox" value="Señalización" id="chek5" /></td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Instalaciones eléctricas</td>
+                    <td><input type="checkbox" name="checkbox" value="Instalaciones eléctricas" id="chek6" /></td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Extintores</td>
+                    <td><input type="checkbox" name="checkbox" value="Extintores" id="chek7" /></td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <input type="button" class="boton" value="Chequeo" name="cheq" id="chek8" onclick="chequeo()">
+
+                        <div id="chek9" class="lista"></div>
+                    </td>
+                </tr>
+            </table>
+
+
+        </fieldset>
+    </form>
+
+    <footer id="pie">
+        <blockquote><a href="index.html">Volver a la página de Inicio</a></blockquote>
+        Derechos Reservados G3 &copy; 2020
+      </footer>
+
+</body>
+
+</html>
