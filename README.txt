@@ -51,4 +51,4 @@ Proyecto:
     Finalmente se contempla tambien un documento .JS con scripts de configuracion de validacion,
     plugins y otras funciones asociadas a los sitios del proyecto. 
     
-    PD: Este trabajo es de ellos, no aporté en nada, hago esto para solo entregar algo.
+PD: Este trabajo es de ellos, no aporté en nada, hago esto para solo entregar algo.
